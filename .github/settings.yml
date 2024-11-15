@@ -2,6 +2,6 @@
 _extends: .github
 repository:
   name: aws-auth0-tenant
-  description: This component configures an [Auth0](https://auth0
+  description: This component configures an Auth0 tenant
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
