@@ -2,7 +2,7 @@
 tags:
 ---
 
-# Component: `auth0`
+# Component: `auth0-tenant`
 
 This component configures an [Auth0](https://auth0.com/docs/) tenant. This component is used to configure authentication
 for the Terraform provider for Auth0 and to configure the Auth0 tenant itself.
