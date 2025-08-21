@@ -6,7 +6,6 @@ tags:
 
 This component configures an [Auth0](https://auth0.com/docs/) tenant. This component is used to configure authentication
 for the Terraform provider for Auth0 and to configure the Auth0 tenant itself.
-
 ## Usage
 
 **Stack Level**: Global
@@ -78,7 +77,10 @@ add the following parameters to the `plat-prod` account in `us-west-2`:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -173,14 +175,21 @@ add the following parameters to the `plat-prod` account in `us-west-2`:
 | <a name="output_client_id_ssm_path"></a> [client\_id\_ssm\_path](#output\_client\_id\_ssm\_path) | The SSM parameter path for the Auth0 client ID |
 | <a name="output_client_secret_ssm_path"></a> [client\_secret\_ssm\_path](#output\_client\_secret\_ssm\_path) | The SSM parameter path for the Auth0 client secret |
 | <a name="output_domain_ssm_path"></a> [domain\_ssm\_path](#output\_domain\_ssm\_path) | The SSM parameter path for the Auth0 domain |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/auth0) -
-  Cloud Posse's upstream component
-- [Auth0 Terraform Provider](https://registry.terraform.io/providers/auth0/auth0/latest/)
-- [Auth0 Documentation](https://auth0.com/docs/)
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+- [Auth0 Terraform Provider](https://registry.terraform.io/providers/auth0/auth0/latest/) - 
+
+- [Auth0 Documentation](https://auth0.com/docs/) - 
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-auth0-tenant&utm_content=)
+
